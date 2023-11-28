@@ -29,6 +29,7 @@ jobs:
         git config user.email "s12201600350@gmail.com"
         git add .
         git commit -m "Added my codes from AtCoder"
+        git pull
         git push origin main
         
     - name : Error Handling
