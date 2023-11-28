@@ -23,7 +23,7 @@ jobs:
     
     - name : Commit and Push
       id : git_update
-      continue-on-error: true
+      continue-on-error: false
       run : |
         git config user.name "kaigitt"
         git config user.email "s12201600350@gmail.com"
